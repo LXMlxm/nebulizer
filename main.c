@@ -1145,6 +1145,7 @@ void main()
 	#endif
 
 //	task_add(0,uart_send,100,100,READY);
+//      this is a comment
 
 	task_add(1,adc_val_handler,3,3,READY);
 
