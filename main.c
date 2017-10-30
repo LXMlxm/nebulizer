@@ -1144,7 +1144,7 @@ void main()
 	uart_init();
 	#endif
 
-	task_add(0,uart_send,100,100,READY);
+//	task_add(0,uart_send,100,100,READY);
 
 	task_add(1,adc_val_handler,3,3,READY);
 
